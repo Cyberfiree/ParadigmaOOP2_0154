@@ -36,4 +36,17 @@ public:
 };
     int main()
 {
+        seseorang* obyek; //pointer
+        joko a;
+        lia b;
+
+        obyek = &a;
+        obyek->pesan(); // Akan memanggil fungsi pesan() dari objek joko
+        obyek = &b;
+        obyek->pesan(); // Akan memanggil fungsi pesan() dari objek lia
+
+        //akses method pesan() dari class seseorang
+        // a.seseorang::pesan();
+
+        return 0;
 }
