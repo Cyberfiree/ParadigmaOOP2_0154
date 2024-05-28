@@ -13,6 +13,11 @@ public:
     //    cout << "Pesan dari seseorang" << endl;
     // }
 };
+
+class joko : public seseorang // membuat kelas joko dengan akses modif public dan turunan dari kelas seseorang
+{
+public:
+};
     int main()
 {
 }
