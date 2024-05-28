@@ -24,6 +24,18 @@ public:
     }
 };
 
+// Kelas pelajar, mewarisi dari kelas orang
+class pelajar : public orang {
+public:
+
+    // Konstruktor kelas pelajar
+    pelajar(int pUmur) :
+        orang(pUmur)
+    {
+        cout << "Pelajar dibuat\n " << endl;
+    }
+};
+
 int main()
 {
 }
