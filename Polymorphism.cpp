@@ -17,6 +17,12 @@ public:
 class joko : public seseorang // membuat kelas joko dengan akses modif public dan turunan dari kelas seseorang
 {
 public:
+    //deklarasi
+    void pesan()
+    {
+        //implementasi
+        cout << "Pesan dari joko" << endl;
+    }
 };
     int main()
 {
