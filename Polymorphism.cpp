@@ -24,6 +24,16 @@ public:
         cout << "Pesan dari joko" << endl;
     }
 };
+
+class lia : public seseorang // membuat kelas lia dengan akses modif public dan turunan dari kelas seseorang 
+{
+public:
+    // deklarasi
+    void pesan()
+    {
+        cout << "Pesan dari lia" << endl; // implementasi
+    }
+};
     int main()
 {
 }
