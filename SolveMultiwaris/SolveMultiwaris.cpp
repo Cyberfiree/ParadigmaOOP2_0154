@@ -36,6 +36,18 @@ public:
     }
 };
 
+// Kelas budi, mewarisi dari kelas pekerja dan pelajar
+class budi : public pekerja, public pelajar {
+public:
+
+    // Konstruktor kelas budi
+    budi(int pUmur) :
+        pekerja(pUmur),
+        pelajar(pUmur)
+    {
+        cout << "Budi dibuat\n" << endl;
+    }
+};
 int main()
 {
 }
