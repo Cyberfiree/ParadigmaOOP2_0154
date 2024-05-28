@@ -13,6 +13,17 @@ public:
     }
 };
 
+// Kelas pekerja, mewarisi dari kelas orang
+class pekerja : public orang {
+public:
+
+    pekerja(int pUmur) : // Konstruktor kelas pekerja
+        orang(pUmur)
+    {
+        cout << "Pekerja dibuat\n " << endl;
+    }
+};
+
 int main()
 {
 }
