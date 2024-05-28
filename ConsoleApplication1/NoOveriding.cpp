@@ -25,6 +25,15 @@ public:
     }
 };
 
+class derivedClass : public baseClass // Kelas turunan dari baseClass
+{
+public:
+    void perkenalan() // Mengoverride fungsi perkenalan dari kelas dasar
+    {
+        cout << "Hallo saya function dari derived Class";
+    }
+};
+
 int main()
 {
 }
