@@ -34,6 +34,11 @@ public:
     }
 };
 
+
 int main()
 {
+    derivedClass a; // Membuat objek dari kelas turunan
+    a.perkenalan();    // Memanggil fungsi perkenalan dari objek kelas turunan
+
+    return 0;
 }
